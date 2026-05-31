@@ -1,0 +1,8 @@
+npm install @metaplex-foundation/mpl-token-metadata
+
+# Then run this after deployment:
+metaplex tokens create-metadata \
+  --mint YOUR_MINT_ADDRESS \
+  --name "World of Finance" \
+  --symbol "WOF" \
+  --uri YOUR_METADATA_JSON_URL
